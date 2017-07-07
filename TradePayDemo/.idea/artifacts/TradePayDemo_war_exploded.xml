@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TradePayDemo:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/TradePayDemo_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TradePayDemo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="commons-codec-1.10.jar" module-name="TradePayDemo" />
+          <element id="library" level="module" name="commons-configuration-1.10.jar" module-name="TradePayDemo" />
+          <element id="library" level="module" name="commons-lang-2.6.jar" module-name="TradePayDemo" />
+          <element id="library" level="module" name="commons-logging-1.1.1.jar" module-name="TradePayDemo" />
+          <element id="library" level="module" name="core-2.1.jar" module-name="TradePayDemo" />
+          <element id="library" level="module" name="gson-2.3.1.jar" module-name="TradePayDemo" />
+          <element id="library" level="module" name="hamcrest-core-1.3.jar" module-name="TradePayDemo" />
+          <element id="library" level="module" name="alipay-sdk-java20161213173952-source.jar" module-name="TradePayDemo" />
+          <element id="library" level="module" name="alipay-sdk-java20161213173952.jar" module-name="TradePayDemo" />
+          <element id="library" level="module" name="alipay-trade-sdk-20161215-source.jar" module-name="TradePayDemo" />
+          <element id="library" level="module" name="alipay-trade-sdk-20161215.jar" module-name="TradePayDemo" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="TradePayDemo/web/Web" />
+    </root>
+  </artifact>
+</component>
